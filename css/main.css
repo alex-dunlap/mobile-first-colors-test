@@ -66,6 +66,11 @@ footer {
     header {
         background-color: magenta;
     }
+    /* #column-1,
+    #column-2,
+    {
+        width: 50%;
+    } */
     #column-1 {
         background-color: purple;
     }
@@ -74,6 +79,10 @@ footer {
     }
     #column-3 {
         background-color: skyblue;
+        width: 100%;
+    }
+    .col-3 {
+        width: 50%;
     }
     footer {
         background-color: maroon;
@@ -86,6 +95,11 @@ footer {
 @media (min-width: 1200px) {
     header {
         background-color: pink;
+    }
+    #column-1,
+    #column-2,
+    #column-3 {
+        width: 33.3%;
     }
     #column-1 {
         background-color: orange;
